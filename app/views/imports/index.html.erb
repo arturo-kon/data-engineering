@@ -1,0 +1,6 @@
+<h3>LivingSocial Importer</h3>
+
+<%= simple_form_for @imports do |f| %>
+    <%= f.input :import_file, :as => :file, :label => 'Select file to upload:' %>
+    <%= f.button :submit %>
+<% end %>
