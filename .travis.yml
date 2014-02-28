@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.0.0
+env:
+  - RAILS_ENV=development
+bundler_args: --without production
+script:
+  - rake db:schema:load
+  - rake db:test:prepare
+  - rspec spec

@@ -1,4 +1,7 @@
 # Challenge for Software Engineer
+### Status
+[![Build Status](https://travis-ci.org/arturo-kon/data-engineering.png?branch=master)](https://travis-ci.org/arturo-kon/data-engineering)
+
 ## Project Description
 Imagine that LivingSocial has just acquired a new company.  Unfortunately, the company has never stored their data in a database and instead uses a plain text file.  We need to create a way for the new subsidiary to import their data into a database.  Your task is to create a web interface that accepts file uploads, normalizes the data, and then stores it in a relational database.
 
